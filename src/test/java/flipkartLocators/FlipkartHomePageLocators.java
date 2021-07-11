@@ -87,6 +87,4 @@ public class FlipkartHomePageLocators {
 	public List<WebElement> getProductDetailsPage() {
 		return productDetailsPage;
 	}
-
-	/*Merge*/
 }

@@ -10,6 +10,7 @@ public class PauseExecutionFor {
 	static WebDriverWait wait;
 
 	public static WebElement ElementToBeClickable(WebDriver driver, WebElement element) {
+		ElementToBeVisible(driver,element);
 		wait = new WebDriverWait(driver, 120);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return element;
