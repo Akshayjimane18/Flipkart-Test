@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-07T17:30:16.176Z",
+        "before": [
+          {
+            "result": {
+              "duration": 32800000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.configuration()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Run an Automation Test session based",
+        "description": "",
+        "id": "paytm-test;run-an-automation-test-session-based",
+        "after": [
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6408000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on flipkart website",
+            "match": {
+              "location": "stepDefinations.FlipkartTestStepDefination.user_is_on_flipkart_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10158000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for the product \"Samsung Galaxy S10\" on that page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung Galaxy S10",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinations.FlipkartTestStepDefination.search_for_the_product_on_that_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2332000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on search and in categories click mobiles",
+            "match": {
+              "location": "stepDefinations.FlipkartTestStepDefination.click_on_search_and_in_categories_click_mobiles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5855000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Apply the filters brand and select assured",
+            "match": {
+              "location": "stepDefinations.FlipkartTestStepDefination.apply_the_filters_brand_and_select_assured()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5529000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Sort the entries sorting",
+            "match": {
+              "location": "stepDefinations.FlipkartTestStepDefination.sort_the_entries_sorting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29597000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "read the result of first page Product Name, Display Price and show on console",
+            "match": {
+              "location": "stepDefinations.FlipkartTestStepDefination.read_the_result_of_first_page_Product_Name_Display_Price_and_show_on_console()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FirstFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Paytm Test",
+    "description": "",
+    "id": "paytm-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/PaytmTestFeature.feature",
+    "tags": [
+      {
+        "name": "@FirstFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
