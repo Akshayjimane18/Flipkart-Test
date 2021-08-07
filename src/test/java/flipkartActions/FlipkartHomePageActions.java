@@ -4,18 +4,14 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import common_Framework_Functions.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
-import common_Framework_Functions.JavaScriptMouseOperations;
-import common_Framework_Functions.PauseExecutionFor;
-import common_Framework_Functions.WebButton;
-import common_Framework_Functions.WebLink;
-import common_Framework_Functions.WebTextBox;
 import flipkartLocators.FlipkartHomePageLocators;
 
-public class FlipkartHomePageActions {
+public class FlipkartHomePageActions implements WebButton {
 
 	WebDriver driver;
 	FlipkartHomePageLocators fhpl;
