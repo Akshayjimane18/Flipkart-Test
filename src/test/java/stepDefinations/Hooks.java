@@ -19,7 +19,7 @@ public class Hooks {
 	
 	@Before("@FirstFeature")
 	public void configuration() {
-
+/*
 		MutableCapabilities sauceOptions = new MutableCapabilities();
 		sauceOptions.setCapability("build","Java-W3C-Examples");
 		sauceOptions.setCapability("seleniumVersion","3.141.59");
@@ -42,9 +42,9 @@ public class Hooks {
 			driver = new RemoteWebDriver(new URL("https://ondemand.apac-southeast-1.saucelabs.com:443/wd/hub"), desiredCapabilities);
 		} catch (MalformedURLException e){
 			System.out.println(e);
-		}
+		}*/
 
-	/*	driver = LocalDriverFactory.createInstance("chrome");*/
+		driver = LocalDriverFactory.createInstance("chrome");
 		driver.get("https://flipkart.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

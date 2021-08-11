@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-08-08T16:25:24.061Z",
+        "start_timestamp": "2021-08-11T18:03:32.027Z",
         "before": [
           {
             "result": {
-              "duration": 20795000000,
+              "duration": 5927000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 332000000,
+              "duration": 686000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4487000000,
+              "duration": 329000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,25 +47,19 @@
           },
           {
             "result": {
-              "duration": 3572000000,
+              "duration": 683000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "Search for the product \"Samsung Galaxy S10\" on that page",
+            "name": "Search for the product fetched from DB table on that page",
             "match": {
-              "arguments": [
-                {
-                  "val": "Samsung Galaxy S10",
-                  "offset": 24
-                }
-              ],
-              "location": "stepDefinations.FlipkartTestStepDefination.search_for_the_product_on_that_page(java.lang.String)"
+              "location": "stepDefinations.FlipkartTestStepDefination.search_for_the_product_on_that_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1547000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "line": 7,
@@ -77,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 4771000000,
+              "duration": 1660000000,
               "status": "passed"
             },
             "line": 8,
@@ -89,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 3513000000,
+              "duration": 275000000,
               "status": "passed"
             },
             "line": 9,
@@ -101,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 26766000000,
+              "duration": 3476000000,
               "status": "passed"
             },
             "line": 10,
