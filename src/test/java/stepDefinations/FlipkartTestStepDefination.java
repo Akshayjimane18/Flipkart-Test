@@ -25,7 +25,8 @@ public class FlipkartTestStepDefination {
 
     @When("^Search for the product fetched from DB table on that page$")
     public void search_for_the_product_on_that_page() throws Throwable {
-        fhpa.enterDeviceName(ReadDB.connectDBAndGetValue("MobileName"));
+        //fhpa.enterDeviceName(ReadDB.connectDBAndGetValue("MobileName"));
+        fhpa.enterDeviceName("Samsung Galaxy S10");
     }
 
     @When("^click on search and in categories click mobiles$")
